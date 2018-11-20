@@ -1,0 +1,165 @@
+/*connor Sweeney*/
+#top-nav {
+  background-color: #333;
+  height: 70px;
+  margin: -10px;
+}
+
+#top-nav a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+#top-nav img {
+  height: 80%;
+  padding: 5px;
+}
+#nav-links {
+ position: absolute;
+ margin: -55px 0px 0 85px
+}
+#nav-links a {
+  padding: 20px;
+}
+.top-heading {
+  text-align: center;
+  width: 3px;
+  font-size: 70px;
+  font-family: "arial";
+  color: white;
+  padding: 5px;
+}
+#top-heading h1{
+  background-color: #346;
+  display: inline;
+  margin: 5px;
+  align-item: flex-end;
+  text-align: center;
+}
+#top-heading {
+   height: 100px;
+ margin-left: -450px;
+  text-align: center;
+}
+
+/*Taylor Reilly*/
+body{
+background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23dedede' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.about{
+  display:grid;
+  grid-gap:30px;
+  grid-template-columns: 1fr 1fr;
+  font-family:arial;
+
+}
+img[alt="aboutimage"]{
+  width:100%;
+  height:auto;
+}
+#aboutus{
+  font-size:30px;
+  margin-left:-50%;
+  margin-bottom:5px;
+  margin-top:10px;
+  padding:15px;
+  color:#ffffff;
+  background-color:#346;
+  box-shadow:10px 10px 20px gray;
+  border-radius:1rem;
+}
+.aboutsectionsubheaders{
+  font-size:20px;
+  margin-bottom:0px;
+}
+.aboutsectionpara{
+  color:#6F7178;
+  margin-top:5px;
+}
+@media (max-width: 1000px){
+  img[alt="aboutimage"]{
+  width:100%;
+  height:100%;
+}
+  .aboutsectionpara{
+  color:#6F7178;
+  margin-top:0px;
+  font-size: 12px;
+}
+  .aboutsectionsubheaders{
+  font-size:15px;
+  margin-bottom:0px;
+}
+  #aboutus{
+  font-size:20px;
+  margin-left:-50%;
+  margin-bottom:5px;
+  margin-top:10px;
+  padding:5px;
+}
+}
+
+p.caption {
+  display: flex;
+  justify-content: center;
+  word-spacing: 250px;
+  font-family: Arial;
+  font-size: large;
+}
+/*madeline Le*/
+p.gallerytitle {
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  font-size: xx-large;
+  padding:10px;
+  color:#ffffff;
+  background-color:#346;
+}
+img.people {
+  width: 215px;
+  height: 200px;
+  border-radius: 800px;
+  vertical-align: top;
+}
+.gallery section{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+/*Tim Linton*/
+footer{
+  padding:100px;
+  color:#346;
+
+  text-align:center;
+  font-family:arial;
+}
+footer a{
+  text-decoration:none;
+  color:#346;
+}
+a:hover{
+  text-decoration:underline;
+  color:black;
+}
+.ftitle{
+  display:inline-block;
+  color:white;
+  background-color:#346;
+}
+.fsocial{
+  padding:10px
+}
+#ffbook {
+  width:50px
+}
+#fpin{
+  width:50px
+}
+#findeed{
+  width:50px
+}
+#finst{width:50px
+}
